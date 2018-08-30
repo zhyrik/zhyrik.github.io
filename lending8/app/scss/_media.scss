@@ -1,0 +1,69 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    html{font-size: 18px;}
+    
+    .mobile-menu{
+        display: flex!important;
+    }
+    .header-naws{
+        display: none!important;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+    html{font-size: 16px;}
+    
+    .contact-now-container{
+        flex-direction: column;
+        
+    }
+}
+	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    html{font-size: 14px;}
+    
+    .two-yellow{
+        display: none;
+        
+    }
+    .best .best-left,
+    .london .two-left{
+        order: -5;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    html{font-size: 12px;}
+    
+    .header-main {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        .rectangle{
+            margin-left: 30vw;
+        width: 40vw;
+         margin-top: 20vh;
+        }
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+    html{font-size: 10px;}
+}
+	
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+
+@include font-face("helvetica-roundedLT", "../fonts/HelveticaRoundedLT-Black/HelveticaRoundedLT-Black", 900);
+@include font-face("montserrat", "../fonts/Montserrat-Bold/Montserrat-Bold", bold);
+@include font-face("montserrat", "../fonts/Montserrat-Regular/Montserrat-Regular",);
+@include font-face("myriad-pro", "../fonts/MyriadPro-Regular/MyriadPro-Regular");
+@include font-face("segoe-UI-Emoji", "../fonts/SegoeUIEmoji/SegoeUIEmoji");
